@@ -1,5 +1,30 @@
 body{
 	font-size: 16px;
 	color: #fff;
-	background-color: #61122f;
+	background-color: #0E0E2E;
+	font-family: oxygen;
+}
+
+#header-nav {
+	background-color: rgb(240, 108, 20);
+	border-radius:0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('../images/finalfinal.png') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 5px 10px 2px -20px;
+}
+#text h1 {
+	color: #0E0E2E;
+	font-family: gang of three;
+	font-weight: bolder;
+}
+#text p {
+	color: #0E0E2E;
+	text-align: center;
+	font-family: gang of three;
+	font-weight: initial;
 }
