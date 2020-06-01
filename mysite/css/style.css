@@ -17,14 +17,26 @@ body{
 	height: 150px;
 	margin: 5px 10px 2px -20px;
 }
-#text h1 {
+.navbar-brand h1 {
 	color: #0E0E2E;
-	font-family: gang of three;
+	font-family: 'Lora',serif;
 	font-weight: bolder;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
 }
-#text p {
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p {
 	color: #0E0E2E;
 	text-align: center;
-	font-family: gang of three;
 	font-weight: initial;
+	margin-top: 15px;
+	font-size: .9em;
+	vertical-align: middle;
 }
+
+
