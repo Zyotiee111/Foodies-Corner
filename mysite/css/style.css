@@ -61,6 +61,12 @@ body{
 	margin-top: -30px;
 }
 @media (min-width: 1200px){
+	.container .jumbotron{
+		background: url('../images/im1200.jpg') no-repeat;
+		height: 675px;
+		/*box-shadow: 0 0 50px black;*/
+		border: 1px solid black;
+	}
 
 
 }
@@ -71,8 +77,20 @@ body{
 		height: 100px;
 		margin: 5px 5px 5px 0px;
 	}
+	.container .jumbotron{
+		background: url('../images/im992.jpg') no-repeat;
+		height: 558px;
+		/*box-shadow: 0 0 50px black;*/
+		/*border: 1px solid black;*/
+	}
 }
 @media (min-width: 768px) and (max-width: 991px){
+	.container .jumbotron{
+		background: url('../images/im768.jpg') no-repeat;
+		height: 432px;
+		/*box-shadow: 0 0 50px black;*/
+		/*border: 1px solid black;*/
+	}
 
 }
 @media (max-width: 767px){
@@ -96,4 +114,9 @@ body{
 		margin-right: 5px;
 	}
 
+}
+.container .jumbotron{
+	margin-top: 30px;
+	padding: 0;
+	
 }
