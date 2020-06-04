@@ -60,6 +60,45 @@ body{
 	clear: both;
 	margin-top: -30px;
 }
+
+/* Home page */
+.container .jumbotron{
+	margin-top: 30px;
+	padding: 0;
+	
+}
+#menu-title,#Special-title ,#map-title{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+}
+#menu-title:hover,#Special-title:hover ,#map-title:hover{
+    box-shadow: 0 1px 5px #cccccc;
+}
+#menu-title{
+	background: url('../images/mymenuu.jpg');
+	background-position: center;
+
+}
+#Special-title{
+	background: url('../images/myspecial.jpg');
+	background-position: center;
+}
+#menu-title span,#Special-title span ,#map-title span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
 @media (min-width: 1200px){
 	.container .jumbotron{
 		background: url('../images/im1200.jpg') no-repeat;
@@ -119,4 +158,9 @@ body{
 	margin-top: 30px;
 	padding: 0;
 	
+}
+@media (max-width: 479px){
+	#menu-tile, #special-title{
+		width:
+
 }
