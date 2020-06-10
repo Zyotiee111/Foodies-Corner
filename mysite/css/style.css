@@ -60,7 +60,36 @@ body{
 	clear: both;
 	margin-top: -30px;
 }
+/* end home page */
+/* menu categories */
+.category-tile{
+	position: relative;
+	border: 2px solid rgb(240, 108, 20);
+	overflow: hidden;
+	width: 300px;
+	height: 200px;
+	margin: 15px auto 20px;
+}
+.category-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+.category-tile:hover{
+	box-shadow: 0 1px 5px 2px gray;
+}
+#menu-categories-title + div {
+	margin-bottom: 50px;
+}
 /* footer */
+
 .panel-footer{
 	margin-top: 30px;
 	padding-top: 35px;
@@ -215,6 +244,14 @@ body{
 	#menu-title, #Special-title{
 		width:280px;
 		margin: 0 auto 15px;
+	}
+	.col-xxs-12{
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		width: 100%;
+		float: left;
 	}
 
 }
